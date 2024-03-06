@@ -1,0 +1,51 @@
+.progressBar {
+  display: flex;
+  align-items: center;
+
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 90px;
+  transition: background-color 0.5s ease-out;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background: linear-gradient(
+    89.99deg,
+    #224dbd 0.66%,
+    #3069ff 61.01%,
+    #42ccd7 99.99%
+  );
+  border-radius: 200;
+
+  transition: width 0.5s ease-out;
+  border-radius: 90px;
+  position: relative;
+}
+.percentage {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color);
+  color: var(--color);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0 15px;
+}
+.noProgress {
+  left: 0;
+  padding: 0 18px;
+}
+.objectivePercentage {
+  color: var(--color);
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
